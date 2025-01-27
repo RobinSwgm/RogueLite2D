@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
 
     private Animator animator;
 
-    private bool ifAllowedToMove;
+    public static bool ifAllowedToMove;
 
     [SerializeField]
     private GameObject particlesystem;

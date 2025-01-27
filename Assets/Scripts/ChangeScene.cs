@@ -17,5 +17,7 @@ public class ChangeScene : MonoBehaviour
     public void TryAgain()
     {
         SceneManager.LoadScene("Main");
+        Movement.ifAllowedToMove = true;
+        OpenChestAnim.startParticles = false;
     }
 }
